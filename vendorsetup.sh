@@ -1,1 +1,3 @@
-add_lunch_combo cm_lt03wifi-userdebug
+add_lunch_combo candy5_lt03wifi-user
+add_lunch_combo candy5_lt03wifi-userdebug
+add_lunch_combo candy5_lt03wifi-eng

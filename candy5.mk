@@ -1,12 +1,9 @@
 $(call inherit-product, device/samsung/lt03wifi/full_lt03wifi.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common Candy5 stuff.
+$(call inherit-product, vendor/candy5/config/common_full_tablet_wifionly.mk)
 
-# Custom unofficial build tag
-TARGET_UNOFFICIAL_BUILD_ID := temasek
-
-PRODUCT_NAME := cm_lt03wifi
+PRODUCT_NAME := candy5_lt03wifi
 PRODUCT_DEVICE := lt03wifi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
